@@ -1,10 +1,9 @@
 # NBA Hall of Fame or Ball of Lame
-Data Analysis and Machine Learning methods to predict future NBA Hall of Famers
 
 Video Link: [Predicting the 2023 Basketball Hall of Fame Class Using Machine Learning](https://www.youtube.com/watch?v=WJod0UAwrjQ&t=5s) <br>
 
-# Objectives
-What makes an NBA player one of the greatest in league history?
+## Objectives
+**What makes an NBA player one of the greatest in league history?**
 
 To answer this question and multiple others, I am going to web scrape (using *python*) the stats of recently retired and current (2021-2022 season) NBA players and train a model to predict their qualifications and probability as a future NBA Hall of Famer (and potential First Ballot inductee).
 
@@ -27,4 +26,28 @@ To determine which players would be considered as a Hall of Famer, I am going to
 - Cleaned extracted data and formatted into desired dataframes and csv files.
 - Explored and visualized the differences between players based on Hall of Fame status.
 - Created two models with algorithms to predict a players chance of being a Hall of Famer and potential First Ballot, based on current Hall of Famers.
-- Determined the most accurate models for binary and probabablistic classification.
+- Determined the most accurate models for binary and probabablistic classification. <br>
+
+## Project Summary
+**Overview:**
+
+- Probabilistic and binary classification models have been trained on retired Hall of Fame eligible players to determine recently retired and current NBA players chances of becoming a Hall of Famer (possibly First Ballot) through stats, awards, and accomplishments. If a player is currently active, I assumed they will retired at the end of the season.
+
+**Technical Contributions:**
+
+- I used bar and scatter plots, along with distribution histograms to visualize the data. To carry out the predictions, Logistic Regression (Probabilistic Classification) and Random Forest Classifier (Binary Classification) models were used and trained on variables with strongest correlations with Inducted as Player ans First Ballot status.
+
+**Main Results:**
+
+- The two players predicted as First Ballot Hall of Famers in 2023 are **Dirk Nowitzki and Dwyane Wade**. **LeBron James, Kevin Durant, and Chris Paul** are the top 3 active players with the highest probability of being inducted into the Hall of Fame in the future (**All predicted First Ballots**).
+
+**How are the results evaluated?**
+
+- Although there were some imperfections, both models were able to correctly predict probabilities and first ballot status for current Hall of Famers. Active players who are considered as an all-time great and are included on the 75th Anniversary Team are the top players with highest probabilities.
+
+**What are the future directions?**
+
+- Include more advanced stats to showcase a players true potential and contributions
+- Factor in total win-loss ratio
+- Comparisons between previous and recent Hall of Famers (analyze evolution of the game)
+- Predict Hall of Fame induction year when given a player's retired year
