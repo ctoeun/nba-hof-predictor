@@ -35,7 +35,7 @@ To determine which players would be considered as a Hall of Famer, I am going to
 
 **Technical Contributions:**
 
-- I used bar and scatter plots, along with distribution histograms to visualize the data. To carry out the predictions, Logistic Regression (Probabilistic Classification) and Random Forest Classifier (Binary Classification) models were used and trained on variables with strongest correlations with Inducted as Player ans First Ballot status.
+- I used bar and scatter plots, along with distribution histograms to visualize the data. To carry out the predictions, Logistic Regression (Probabilistic Classification) and Random Forest Classifier (Binary Classification) models were used and trained on predictive variables with strongest correlations between Inducted as Player and First Ballot status.
 
 **Main Results:**
 
